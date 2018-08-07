@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "MBProgressHUD.h"
+#import "MSProgressHUD.h"
 #import "UIView+UIViewUtils.h"
 
 FOUNDATION_EXPORT double MSProgressVersionNumber;
