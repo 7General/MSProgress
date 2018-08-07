@@ -1,5 +1,5 @@
 PODS:
-  - MSProgress (0.1.0)
+  - MSProgress (0.0.1)
 
 DEPENDENCIES:
   - MSProgress (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MSProgress: 1ed4d2100efc82c1956d893c991c8d44252dcab2
+  MSProgress: 2da8cc7cee915c42afa409e0b9a419610f54b65c
 
 PODFILE CHECKSUM: 11b24b363059ca9b9109b831b5973a62d196529a
 
