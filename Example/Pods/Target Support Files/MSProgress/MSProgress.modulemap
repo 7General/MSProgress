@@ -1,0 +1,6 @@
+framework module MSProgress {
+  umbrella header "MSProgress-umbrella.h"
+
+  export *
+  module * { export * }
+}

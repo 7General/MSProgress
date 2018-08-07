@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSProgress_Example' do
+  pod 'MSProgress', :path => '../'
+
+  target 'MSProgress_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
