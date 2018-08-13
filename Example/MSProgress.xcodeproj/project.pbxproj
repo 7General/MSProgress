@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		421FB006029C006CBC21B155 /* Pods_MSProgress_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF75B4B1A64F7AFC892512D /* Pods_MSProgress_Example.framework */; };
+		3F33A3FAE7CBB218EE9F9832 /* libPods-MSProgress_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6785F25C68A7F5AB1547842 /* libPods-MSProgress_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F8728D4003AEC7AFCD600CB1 /* Pods_MSProgress_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4EF1B8289950E8DD3B97B /* Pods_MSProgress_Tests.framework */; };
+		E716B33CBEC1321F51E73E80 /* libPods-MSProgress_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A45F94036A9DBFD067F6009 /* libPods-MSProgress_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,8 @@
 
 /* Begin PBXFileReference section */
 		030A05E24615CDD5DD373967 /* Pods-MSProgress_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSProgress_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSProgress_Example/Pods-MSProgress_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2DF75B4B1A64F7AFC892512D /* Pods_MSProgress_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSProgress_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F931C6FA95741E4AAB2813E /* MSProgress.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MSProgress.podspec; path = ../MSProgress.podspec; sourceTree = "<group>"; };
-		33B43147C739F9CC73C02D8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F931C6FA95741E4AAB2813E /* MSProgress.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MSProgress.podspec; path = ../MSProgress.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33B43147C739F9CC73C02D8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4B005048FDE5F122DE918503 /* Pods-MSProgress_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSProgress_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSProgress_Example/Pods-MSProgress_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MSProgress_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSProgress_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6A45F94036A9DBFD067F6009 /* libPods-MSProgress_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSProgress_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		733573E34F3BCEA17B4BCFF6 /* Pods-MSProgress_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSProgress_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSProgress_Tests/Pods-MSProgress_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D322BC0B30D31DCD8AE106D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9D322BC0B30D31DCD8AE106D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9EC65AECE7AFB2FDC9504F9A /* Pods-MSProgress_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSProgress_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSProgress_Tests/Pods-MSProgress_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		ECF4EF1B8289950E8DD3B97B /* Pods_MSProgress_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSProgress_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6785F25C68A7F5AB1547842 /* libPods-MSProgress_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSProgress_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				421FB006029C006CBC21B155 /* Pods_MSProgress_Example.framework in Frameworks */,
+				E716B33CBEC1321F51E73E80 /* libPods-MSProgress_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F8728D4003AEC7AFCD600CB1 /* Pods_MSProgress_Tests.framework in Frameworks */,
+				3F33A3FAE7CBB218EE9F9832 /* libPods-MSProgress_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				2DF75B4B1A64F7AFC892512D /* Pods_MSProgress_Example.framework */,
-				ECF4EF1B8289950E8DD3B97B /* Pods_MSProgress_Tests.framework */,
+				6A45F94036A9DBFD067F6009 /* libPods-MSProgress_Example.a */,
+				B6785F25C68A7F5AB1547842 /* libPods-MSProgress_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				5838AA388818364DC4691D34 /* [CP] Embed Pods Frameworks */,
+				6C9C6F009D2BD9C29856CD2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "wanghuizhou21@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = QNBW2BT8S6;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -312,22 +315,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5838AA388818364DC4691D34 /* [CP] Embed Pods Frameworks */ = {
+		6C9C6F009D2BD9C29856CD2C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MSProgress_Example/Pods-MSProgress_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MSProgress/MSProgress.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-MSProgress_Example/Pods-MSProgress_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MSProgress/MSProgress.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MSProgress.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MSProgress.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSProgress_Example/Pods-MSProgress_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSProgress_Example/Pods-MSProgress_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9560284EC80621E7007CC2BF /* [CP] Check Pods Manifest.lock */ = {
@@ -485,11 +488,13 @@
 			baseConfigurationReference = 030A05E24615CDD5DD373967 /* Pods-MSProgress_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNBW2BT8S6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSProgress/MSProgress-Prefix.pch";
 				INFOPLIST_FILE = "MSProgress/MSProgress-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.car;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -500,11 +505,13 @@
 			baseConfigurationReference = 4B005048FDE5F122DE918503 /* Pods-MSProgress_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNBW2BT8S6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSProgress/MSProgress-Prefix.pch";
 				INFOPLIST_FILE = "MSProgress/MSProgress-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.car;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

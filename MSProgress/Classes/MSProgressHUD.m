@@ -530,7 +530,8 @@ static const CGFloat kDetailsLabelFontSize = 15.f; /**详细标题字体大小*/
     
     else if(mode == MSProgressHUD25X){
         [indicator removeFromSuperview];
-        self.indicator = MS_AUTORELEASE([[UIImageView alloc] initWithImage:[UIImage imageNamed:@"jiazai_"]]);
+        UIImageView * jiazaiView =  [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgress.bundle/%@", @"jiazai"]]];
+        self.indicator = MS_AUTORELEASE(jiazaiView);
         self.indicator.backgroundColor = [UIColor clearColor];
         [self addSubview:indicator];
         
@@ -548,7 +549,8 @@ static const CGFloat kDetailsLabelFontSize = 15.f; /**详细标题字体大小*/
     }
     else if (mode == MSProgressHUDETax) {
         [indicator removeFromSuperview];
-        self.indicator = MS_AUTORELEASE([[UIImageView alloc] initWithImage:[UIImage imageNamed:@"jiazai_etax"]]);
+        UIImageView * jiazaiView =  [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgress.bundle/%@", @"jiazai_etax"]]];
+        self.indicator = MS_AUTORELEASE(jiazaiView);
         self.indicator.backgroundColor = [UIColor clearColor];
         [self addSubview:indicator];
         

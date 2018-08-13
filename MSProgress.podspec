@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MSProgress'
   s.version          = '0.0.1'
-  s.summary          = ' MSProgress for toast'
+  s.summary          = 'MSProgress for toast'
 
 
 
@@ -27,8 +27,10 @@ TODO: Add long description of the pod here.
   s.source_files = 'MSProgress/Classes/**/*'
   
    s.resource_bundles = {
-     'MSProgress' => ['MSProgress/Assets/*.png']
+     'MSProgress' => ['MSProgress/Assets/**']
    }
+   
+   
 
   
 end

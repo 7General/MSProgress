@@ -21,7 +21,7 @@
   "source_files": "MSProgress/Classes/**/*",
   "resource_bundles": {
     "MSProgress": [
-      "MSProgress/Assets/*.png"
+      "MSProgress/Assets/**"
     ]
   }
 }

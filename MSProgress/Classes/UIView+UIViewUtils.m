@@ -15,13 +15,13 @@
 #pragma mark hud
 /**显示错误信息带角标提示 */
 -(void)showHUDIndicatorViewErrorAtCenter:(NSString *)error {
-    [self showHUDIndicatorViewAtCenter:error icon:@"error.png" MSPCase:HUDCaseSucErr];
+    [self showHUDIndicatorViewAtCenter:error icon:@"error" MSPCase:HUDCaseSucErr];
     [self hide:YES afterDelay:1.0];
 }
 
 /**显示正确提示带角标提示*/
 -(void)showHUDIndicatorViewSuccessAtCenter:(NSString *)success {
-    [self showHUDIndicatorViewAtCenter:success icon:@"success.png" MSPCase:HUDCaseSucErr];
+    [self showHUDIndicatorViewAtCenter:success icon:@"success" MSPCase:HUDCaseSucErr];
     [self hide:YES afterDelay:1.0];
 }
 
@@ -32,7 +32,6 @@
 
 -(void)showHUDIndicatorAtCenter:(NSString *)indiTitle {
     [self showHUDIndicatorViewAtCenter:indiTitle icon:nil MSPCase:HUDCaseIndeterminate];
-//    [self hide:YES afterDelay:1.0];
 }
 
 
@@ -58,7 +57,8 @@
         hud = [self createHUDIndicatorViewAtCenter:indiTitle icon:iconStr yOffset:0 MPBCase:caseEnum];
         [hud show:YES];
     }else{
-        hud.labelText = indiTitle;
+        [self hideHUDIndicatorViewAtCenter];
+        [self showHUDIndicatorLabelAtCenter:indiTitle];
     }
 }
 
@@ -67,11 +67,13 @@
 
 
 // **********************************************************************************
+
 /**
- *  默认样式显示提示信息标题
+ 网络请求相关提示
+ 
+ @param indiTitle 提示标题
  */
-- (void)showHUDIndicatorViewAtCenter:(NSString *)indiTitle
-{
+- (void)showHUDIndicatorViewAtCenter:(NSString *)indiTitle {
     MSProgressHUD *hud = [self getHUDIndicatorViewAtCenter];
     if (hud == nil){
         hud = [self createHUDIndicatorViewAtCenter:indiTitle icon:nil yOffset:0 MPBCase:HUDCaseDefault];
@@ -90,6 +92,40 @@
     }else{
         hud.labelText = nil;
     }
+}
+
+/*! 白底黑字----自动消失 */
+-(MSProgressHUD *)showHUDWitheColorAtCenter:(NSString *)title {
+    MSProgressHUD *hud = [self getHUDIndicatorViewAtCenter];
+    if (hud == nil){
+        hud = [self createHUDIndicatorViewAtCenter:title icon:nil yOffset:0 MPBCase:HUDCaseWhiteLabe];
+        [hud show:YES];
+    }else{
+        hud.labelText = nil;
+    }
+    [[self getCurrentWindowView] insertSubview:hud atIndex:0];
+    [hud hide:YES afterDelay:1.0];
+    return hud;
+}
+
+
+/**获取当前window*/
+- (UIWindow *)getCurrentWindowView {
+    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
+    if (window.windowLevel != UIWindowLevelNormal)
+    {
+        NSArray *windows = [[UIApplication sharedApplication] windows];
+        for(UIWindow * tmpWin in windows)
+        {
+            if (tmpWin.windowLevel == UIWindowLevelNormal)
+            {
+                window = tmpWin;
+                break;
+            }
+        }
+    }
+    
+    return window;
 }
 
 /**默认样式显示提示信息标题，和中间点的偏移*/
@@ -128,7 +164,7 @@
     
     /**如果有图片名称*/
     if (icon) {
-        hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgressHUD.bundle/%@", icon]]];
+        hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgress.bundle/%@", icon]]];
     }
     switch (caseEnum) {
         case HUDCaseDefault:
@@ -172,10 +208,18 @@
             hud.labelColor = [UIColor blackColor];
         }
             break;
+        case HUDCaseWhiteLabe:
+        {
+            hud.mode = MSProgressHUDModeText;
+            hud.dimBackground = NO;
+            hud.color = [[UIColor blackColor] colorWithAlphaComponent:0.6];
+            hud.labelColor = [UIColor whiteColor];
+            
+        }
+            break;
         default:
             break;
     }
-    
     [self addSubview:hud];
     hud.tag = hudViewTag;
     return hud;

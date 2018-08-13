@@ -18,6 +18,7 @@ typedef enum : NSUInteger {
     HUDCaseSucErr, //显示的时候有状态图片
     HUDCaseLabel, //只显示文字内容
     HUDCaseIndeterminate, //菊花转圈
+    HUDCaseWhiteLabe, //白底黑字
     HUDCaseETax,    //e税客等待转圈
 } HUDCaseEnum;
 
@@ -27,34 +28,35 @@ typedef enum : NSUInteger {
 /**枚举状态*/
 @property (nonatomic, assign) HUDCaseEnum  HUDCase;
 
-/**显示错误信息带角标提示*/
+/**显示错误信息带角标提示-自动消失*/
 -(void)showHUDIndicatorViewSuccessAtCenter:(NSString *)success;
 
-/**显示正确提示带角标提示*/
+/**显示正确提示带角标提示-自动消失*/
 -(void)showHUDIndicatorViewErrorAtCenter:(NSString *)error;
 
-/**显示文字，不带任何图标*/
+/**显示文字，不带任何图标-自动消失*/
 -(void)showHUDIndicatorLabelAtCenter:(NSString *)indiTitle;
 
 /**菊花转，背景为黑色透明*/
 -(void)showHUDIndicatorAtCenter:(NSString *)indiTitle;
 
+/*! 白底黑字----自动消失---提示文案 */
+-(MSProgressHUD *)showHUDWitheColorAtCenter:(NSString *)title;
+
 
 //********************************************************************
-/**网络请求相关提示*/
+/**
+ 网络请求相关提示，网络加载中....
+
+ @param indiTitle 提示标题
+ */
 - (void)showHUDIndicatorViewAtCenter:(NSString *)indiTitle;
-/// e税客所用等待提示
+/* 一个风火轮展示 */
 - (void)showHUDIndicatorViewETaxAtCenter;
 
 /**隐藏弹层*/
 - (void)hideHUDIndicatorViewAtCenter;
 
 - (void)showHUDIndicatorViewAtCenter:(NSString *)indiTitle yOffset:(CGFloat)y;
-/*
-- (MSProgressHUD *)createHUDIndicatorViewAtCenter:(NSString *)indiTitle icon:(NSString *)icon yOffset:(CGFloat)y;
-- (MSProgressHUD *)getHUDIndicatorViewAtCenter;
 
-
-- (UIView *)viewWithTagNotDeepCounting:(NSInteger)tag;
- */
 @end
