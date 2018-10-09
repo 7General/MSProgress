@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		00CFC7EB3FA7BF8CC95025F41061C051 /* Pods-MSProgress_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B58D9E0CE8E6A62EECF57B0DEEB75F79 /* Pods-MSProgress_Tests-dummy.m */; };
-		0473505045394DD3DC3F8DBF97C4BDF4 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845D3D3A0E443886D34FA0F2C18438DD /* success@2x.png */; };
-		12EEE3A397F08A554ACA1CAD117B48A3 /* jiazai_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 782F9109E7380F5E374B528DB9C1935C /* jiazai_2.png */; };
-		4698CFE2659FB2D7DC1406E1F8F8396D /* UIView+UIViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC8359F38274514BB5BC4BE772B60B3 /* UIView+UIViewUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		49CCDCC40269322E6F87A730CAACCCB6 /* jiazai.png in Resources */ = {isa = PBXBuildFile; fileRef = 7119567CB707B2851AD5FF85291FF897 /* jiazai.png */; };
-		5D8FC720CFCC670CDDC5BD4F547C2287 /* UIView+UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9037AD7D33A8A7A69378B7E2A093FB96 /* UIView+UIViewUtils.m */; };
+		06A2AE6D3EAC7C331AE0E844BBA05D66 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E091CCD19F78A9E614B3608CF93535 /* error@2x.png */; };
+		0D24D9BBF6707647250DF21E0E23DB76 /* jiazai.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEAA559CB7DC3D5904B2AC5B4E098D1 /* jiazai.png */; };
+		469131EAD8BB440AD3BFD9D273D38C5F /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F60DC0D57BEE45545700901706DCAEF7 /* success@3x.png */; };
+		4698CFE2659FB2D7DC1406E1F8F8396D /* UIView+UIViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A08B93FCE4568B973075BF2264127564 /* UIView+UIViewUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D2060D59558A069C3089C863D359990 /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7D3613F14E7D99332E2789F52BA15C /* error@3x.png */; };
+		5D8FC720CFCC670CDDC5BD4F547C2287 /* UIView+UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D985A2BB0596EAA41424899288AA45B9 /* UIView+UIViewUtils.m */; };
 		6038498FF9025E66664D00E60B6A32DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		66A41C4A7EE34B9293BE7A0C342E17DF /* Pods-MSProgress_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08224DDC36B2CBE9DC68FD14DAF9C7FB /* Pods-MSProgress_Example-dummy.m */; };
-		69B701CD9EFA4A474D2C40080A02BDD4 /* jiazai_etax@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C29BDE6F29B409E3C62614F06AABECD /* jiazai_etax@2x.png */; };
-		717AEC3394F7B6E0079CFE019A383BCB /* MSProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F22AE84172918E2D15602A2940E369 /* MSProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B6AB0D686718C2D86F6FB70E5ECFFF4 /* MSProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0191608AD198F4E1D350A87FBC441A45 /* MSProgress-dummy.m */; };
-		8D67E0585DDC138892143DB2EF6E037A /* MSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A625380C98B5F00BCF209995AFA966DB /* MSProgressHUD.m */; };
+		717AEC3394F7B6E0079CFE019A383BCB /* MSProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D902879916B08764187F1052B94D6A2 /* MSProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B6AB0D686718C2D86F6FB70E5ECFFF4 /* MSProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D708ABC241C7080D55A952D75ECD914 /* MSProgress-dummy.m */; };
+		8D67E0585DDC138892143DB2EF6E037A /* MSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D1EFD58E0694F476FC7BAB619D2D3 /* MSProgressHUD.m */; };
+		A52BE05EA61014238FF81403A6737E51 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F008F2512C6A723CA2B0C35D05B60 /* success@2x.png */; };
 		A73D5DA51962C0F1D5A97803E6C3729F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BEDDC2D8CCD7F9A746ACE309C1C9AD8D /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 581FC8AF3309E423C53EFBABB776673F /* error@2x.png */; };
 		F1A81A40B969C51089F4EDC373F88706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,42 +42,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0191608AD198F4E1D350A87FBC441A45 /* MSProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSProgress-dummy.m"; sourceTree = "<group>"; };
-		05CC864329C5813AFBEBA3AC3F76EFD6 /* MSProgress.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MSProgress.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		08224DDC36B2CBE9DC68FD14DAF9C7FB /* Pods-MSProgress_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSProgress_Example-dummy.m"; sourceTree = "<group>"; };
+		0E2F008F2512C6A723CA2B0C35D05B60 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@2x.png"; path = "MSProgress/Assets/success@2x.png"; sourceTree = "<group>"; };
 		0E698BEC3612A3220D9B318B5C4F34D5 /* Pods-MSProgress_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProgress_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1EB418BBFF0D6D334BE58AD8F1AC9AAF /* Pods-MSProgress_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProgress_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3706A5FA7E2A358735ABEA9A124CD56B /* Pods-MSProgress_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProgress_Example-resources.sh"; sourceTree = "<group>"; };
+		38E091CCD19F78A9E614B3608CF93535 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "MSProgress/Assets/error@2x.png"; sourceTree = "<group>"; };
 		38F4BAD1F99623841EB56366DC017933 /* Pods-MSProgress_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3C4D1EFD58E0694F476FC7BAB619D2D3 /* MSProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSProgressHUD.m; path = MSProgress/Classes/MSProgressHUD.m; sourceTree = "<group>"; };
+		3D708ABC241C7080D55A952D75ECD914 /* MSProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSProgress-dummy.m"; sourceTree = "<group>"; };
 		42E4B60BF09C48A17E1977809F0D4A9D /* Pods-MSProgress_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProgress_Tests-resources.sh"; sourceTree = "<group>"; };
+		449D05309D60FB6F4C6A3A954547B270 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4634BC54F54B6D853410FAA18D4DD56D /* Pods-MSProgress_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSProgress_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		581FC8AF3309E423C53EFBABB776673F /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "MSProgress/Assets/error@2x.png"; sourceTree = "<group>"; };
-		612DA3ECDD63AE02964D5A137F7CF2F5 /* MSProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSProgress-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6C56EBE5830C9AC740A61B496A45875B /* Pods-MSProgress_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSProgress_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7119567CB707B2851AD5FF85291FF897 /* jiazai.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jiazai.png; path = MSProgress/Assets/jiazai.png; sourceTree = "<group>"; };
-		74ABA82D322F5E7A037C12FCDE75A704 /* ResourceBundle-MSProgress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MSProgress-Info.plist"; sourceTree = "<group>"; };
-		782F9109E7380F5E374B528DB9C1935C /* jiazai_2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jiazai_2.png; path = MSProgress/Assets/jiazai_2.png; sourceTree = "<group>"; };
-		845D3D3A0E443886D34FA0F2C18438DD /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@2x.png"; path = "MSProgress/Assets/success@2x.png"; sourceTree = "<group>"; };
-		9037AD7D33A8A7A69378B7E2A093FB96 /* UIView+UIViewUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIViewUtils.m"; path = "MSProgress/Classes/UIView+UIViewUtils.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C29BDE6F29B409E3C62614F06AABECD /* jiazai_etax@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jiazai_etax@2x.png"; path = "MSProgress/Assets/jiazai_etax@2x.png"; sourceTree = "<group>"; };
-		A489C53C7B65CCE191390AD9F00CBC34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A625380C98B5F00BCF209995AFA966DB /* MSProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSProgressHUD.m; path = MSProgress/Classes/MSProgressHUD.m; sourceTree = "<group>"; };
+		6D811F2D7354D78D7DDE4008941FD994 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7E41EC3D4B1FC51A2231581186B4E73C /* ResourceBundle-MSProgress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MSProgress-Info.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D902879916B08764187F1052B94D6A2 /* MSProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProgressHUD.h; path = MSProgress/Classes/MSProgressHUD.h; sourceTree = "<group>"; };
+		9F7D3613F14E7D99332E2789F52BA15C /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "MSProgress/Assets/error@3x.png"; sourceTree = "<group>"; };
+		A08B93FCE4568B973075BF2264127564 /* UIView+UIViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+UIViewUtils.h"; path = "MSProgress/Classes/UIView+UIViewUtils.h"; sourceTree = "<group>"; };
 		A683A8CABBE8F00CA1B73733F878F6FE /* Pods-MSProgress_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSProgress_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B3F19F21D28A2DFEF6284D6F5499045C /* libMSProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FCF219C2C8257D5435D8F9243231C9 /* MSProgress.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MSProgress.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3F19F21D28A2DFEF6284D6F5499045C /* libMSProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMSProgress.a; path = libMSProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58D9E0CE8E6A62EECF57B0DEEB75F79 /* Pods-MSProgress_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSProgress_Tests-dummy.m"; sourceTree = "<group>"; };
-		BA045424B9332C3F1F8FF2E9C6D592C2 /* MSProgress.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSProgress.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA045424B9332C3F1F8FF2E9C6D592C2 /* MSProgress.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MSProgress.bundle; path = "MSProgress-MSProgress.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACC23FCD1D0A3B8F57865FBE03668E3 /* Pods-MSProgress_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C2F22AE84172918E2D15602A2940E369 /* MSProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProgressHUD.h; path = MSProgress/Classes/MSProgressHUD.h; sourceTree = "<group>"; };
-		C610A4398D431DDAF3027E25ABCA8F1A /* libPods-MSProgress_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSProgress_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB0E80AC368CE6F987A334AFC987B6B /* MSProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSProgress-prefix.pch"; sourceTree = "<group>"; };
+		BFEAA559CB7DC3D5904B2AC5B4E098D1 /* jiazai.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jiazai.png; path = MSProgress/Assets/jiazai.png; sourceTree = "<group>"; };
+		C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProgress.xcconfig; sourceTree = "<group>"; };
+		C610A4398D431DDAF3027E25ABCA8F1A /* libPods-MSProgress_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MSProgress_Tests.a"; path = "libPods-MSProgress_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81850DE724430F8FF499BAE9B8A9846 /* Pods-MSProgress_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C9FA33CDD63D7AD09333C1B6CEF288E9 /* libPods-MSProgress_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSProgress_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAC8359F38274514BB5BC4BE772B60B3 /* UIView+UIViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+UIViewUtils.h"; path = "MSProgress/Classes/UIView+UIViewUtils.h"; sourceTree = "<group>"; };
+		C9FA33CDD63D7AD09333C1B6CEF288E9 /* libPods-MSProgress_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MSProgress_Example.a"; path = "libPods-MSProgress_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D985A2BB0596EAA41424899288AA45B9 /* UIView+UIViewUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIViewUtils.m"; path = "MSProgress/Classes/UIView+UIViewUtils.m"; sourceTree = "<group>"; };
 		DB76F9B28C7DA3B8F0506961A215132F /* Pods-MSProgress_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DDF98F2E13E0AE95119E3ADC13F77781 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		EEF8161FD3667F4E36C00FF235D7CABC /* MSProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProgress.xcconfig; sourceTree = "<group>"; };
 		F2BD793703D5AC9244409E7E9EA19833 /* Pods-MSProgress_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSProgress_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F60DC0D57BEE45545700901706DCAEF7 /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@3x.png"; path = "MSProgress/Assets/success@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,49 +130,12 @@
 			path = "Target Support Files/Pods-MSProgress_Tests";
 			sourceTree = "<group>";
 		};
-		2ACE5B5DBCD36FF765ABB4FFE874E94C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EEF8161FD3667F4E36C00FF235D7CABC /* MSProgress.xcconfig */,
-				0191608AD198F4E1D350A87FBC441A45 /* MSProgress-dummy.m */,
-				612DA3ECDD63AE02964D5A137F7CF2F5 /* MSProgress-prefix.pch */,
-				74ABA82D322F5E7A037C12FCDE75A704 /* ResourceBundle-MSProgress-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MSProgress";
-			sourceTree = "<group>";
-		};
 		341CDF290F4D05439BC4FDCAFD6744B0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4D4F46BC1A99D85B27DD97AE4190A3AE /* MSProgress */,
+				F746BF5AC62D2372972A088646BD33F3 /* MSProgress */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4D4F46BC1A99D85B27DD97AE4190A3AE /* MSProgress */ = {
-			isa = PBXGroup;
-			children = (
-				C2F22AE84172918E2D15602A2940E369 /* MSProgressHUD.h */,
-				A625380C98B5F00BCF209995AFA966DB /* MSProgressHUD.m */,
-				DAC8359F38274514BB5BC4BE772B60B3 /* UIView+UIViewUtils.h */,
-				9037AD7D33A8A7A69378B7E2A093FB96 /* UIView+UIViewUtils.m */,
-				5D608500FF79361C37FB333FE25490A3 /* Pod */,
-				9FBDFADC9873DAB6042037C1D1F8C526 /* Resources */,
-				2ACE5B5DBCD36FF765ABB4FFE874E94C /* Support Files */,
-			);
-			name = MSProgress;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5D608500FF79361C37FB333FE25490A3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A489C53C7B65CCE191390AD9F00CBC34 /* LICENSE */,
-				05CC864329C5813AFBEBA3AC3F76EFD6 /* MSProgress.podspec */,
-				DDF98F2E13E0AE95119E3ADC13F77781 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		691B4AE15158F2A0F76DFB4D7B4B5663 /* Pods-MSProgress_Example */ = {
@@ -190,6 +153,18 @@
 			path = "Target Support Files/Pods-MSProgress_Example";
 			sourceTree = "<group>";
 		};
+		6B55963F97E53F249A5FAF6C615B00D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38E091CCD19F78A9E614B3608CF93535 /* error@2x.png */,
+				9F7D3613F14E7D99332E2789F52BA15C /* error@3x.png */,
+				BFEAA559CB7DC3D5904B2AC5B4E098D1 /* jiazai.png */,
+				0E2F008F2512C6A723CA2B0C35D05B60 /* success@2x.png */,
+				F60DC0D57BEE45545700901706DCAEF7 /* success@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -201,16 +176,26 @@
 			);
 			sourceTree = "<group>";
 		};
-		9FBDFADC9873DAB6042037C1D1F8C526 /* Resources */ = {
+		92536BA831FCB38E543819EB547AED7C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				581FC8AF3309E423C53EFBABB776673F /* error@2x.png */,
-				7119567CB707B2851AD5FF85291FF897 /* jiazai.png */,
-				782F9109E7380F5E374B528DB9C1935C /* jiazai_2.png */,
-				9C29BDE6F29B409E3C62614F06AABECD /* jiazai_etax@2x.png */,
-				845D3D3A0E443886D34FA0F2C18438DD /* success@2x.png */,
+				C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */,
+				3D708ABC241C7080D55A952D75ECD914 /* MSProgress-dummy.m */,
+				BEB0E80AC368CE6F987A334AFC987B6B /* MSProgress-prefix.pch */,
+				7E41EC3D4B1FC51A2231581186B4E73C /* ResourceBundle-MSProgress-Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSProgress";
+			sourceTree = "<group>";
+		};
+		9DD280399847A76328FC291F1BB84C8C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D811F2D7354D78D7DDE4008941FD994 /* LICENSE */,
+				A6FCF219C2C8257D5435D8F9243231C9 /* MSProgress.podspec */,
+				449D05309D60FB6F4C6A3A954547B270 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B0FD3B964797382B79F2D4E3894DCEC7 /* Targets Support Files */ = {
@@ -247,6 +232,21 @@
 				BA045424B9332C3F1F8FF2E9C6D592C2 /* MSProgress.bundle */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F746BF5AC62D2372972A088646BD33F3 /* MSProgress */ = {
+			isa = PBXGroup;
+			children = (
+				9D902879916B08764187F1052B94D6A2 /* MSProgressHUD.h */,
+				3C4D1EFD58E0694F476FC7BAB619D2D3 /* MSProgressHUD.m */,
+				A08B93FCE4568B973075BF2264127564 /* UIView+UIViewUtils.h */,
+				D985A2BB0596EAA41424899288AA45B9 /* UIView+UIViewUtils.m */,
+				9DD280399847A76328FC291F1BB84C8C /* Pod */,
+				6B55963F97E53F249A5FAF6C615B00D5 /* Resources */,
+				92536BA831FCB38E543819EB547AED7C /* Support Files */,
+			);
+			name = MSProgress;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,7 +303,7 @@
 			buildPhases = (
 				A60D899A284F41069BD667C592D32A8B /* Sources */,
 				7ABCFEC9E443A3E20B946E770FA26C73 /* Frameworks */,
-				AC679302CA39D1CAE6F7295F8EB69913 /* Resources */,
+				BE2DACCE687D1801C4790A14C3DB7FD4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -362,15 +362,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AC679302CA39D1CAE6F7295F8EB69913 /* Resources */ = {
+		BE2DACCE687D1801C4790A14C3DB7FD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEDDC2D8CCD7F9A746ACE309C1C9AD8D /* error@2x.png in Resources */,
-				49CCDCC40269322E6F87A730CAACCCB6 /* jiazai.png in Resources */,
-				12EEE3A397F08A554ACA1CAD117B48A3 /* jiazai_2.png in Resources */,
-				69B701CD9EFA4A474D2C40080A02BDD4 /* jiazai_etax@2x.png in Resources */,
-				0473505045394DD3DC3F8DBF97C4BDF4 /* success@2x.png in Resources */,
+				06A2AE6D3EAC7C331AE0E844BBA05D66 /* error@2x.png in Resources */,
+				5D2060D59558A069C3089C863D359990 /* error@3x.png in Resources */,
+				0D24D9BBF6707647250DF21E0E23DB76 /* jiazai.png in Resources */,
+				A52BE05EA61014238FF81403A6737E51 /* success@2x.png in Resources */,
+				469131EAD8BB440AD3BFD9D273D38C5F /* success@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		04CD2084E721A846D118B8A97FF1A1BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF8161FD3667F4E36C00FF235D7CABC /* MSProgress.xcconfig */;
+			baseConfigurationReference = C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MSProgress";
@@ -595,7 +595,7 @@
 		};
 		AF82F8D1A0EE249FFD5470066599AAE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF8161FD3667F4E36C00FF235D7CABC /* MSProgress.xcconfig */;
+			baseConfigurationReference = C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MSProgress";
@@ -611,7 +611,7 @@
 		};
 		B5C5C121C99795E6072A109636045ACB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF8161FD3667F4E36C00FF235D7CABC /* MSProgress.xcconfig */;
+			baseConfigurationReference = C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -634,7 +634,7 @@
 		};
 		EE9E32492B7DFE5AB4F329EDB9404870 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF8161FD3667F4E36C00FF235D7CABC /* MSProgress.xcconfig */;
+			baseConfigurationReference = C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -51,8 +51,7 @@ typedef enum : NSUInteger {
  @param indiTitle 提示标题
  */
 - (void)showHUDIndicatorViewAtCenter:(NSString *)indiTitle;
-/* 一个风火轮展示 */
-- (void)showHUDIndicatorViewETaxAtCenter;
+
 
 /**隐藏弹层*/
 - (void)hideHUDIndicatorViewAtCenter;

@@ -24,6 +24,7 @@ typedef NS_ENUM(NSInteger, MSProgressHUDMode) {
     //    add by gjf
     MSProgressHUD25X,
     MSProgressHUDETax,
+    MSProgressHUDICTtitle,
 };
 
 typedef NS_ENUM(NSInteger, MSProgressHUDAnimation) {

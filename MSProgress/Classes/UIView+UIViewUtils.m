@@ -58,7 +58,8 @@
         [hud show:YES];
     }else{
         [self hideHUDIndicatorViewAtCenter];
-        [self showHUDIndicatorLabelAtCenter:indiTitle];
+        hud = [self createHUDIndicatorViewAtCenter:indiTitle icon:iconStr yOffset:0 MPBCase:caseEnum];
+        [hud show:YES];
     }
 }
 
@@ -83,16 +84,7 @@
     }
 }
 
-/// e税客所用等待提示
-- (void)showHUDIndicatorViewETaxAtCenter {
-    MSProgressHUD *hud = [self getHUDIndicatorViewAtCenter];
-    if (hud == nil){
-        hud = [self createHUDIndicatorViewAtCenter:nil icon:nil yOffset:0 MPBCase:HUDCaseETax];
-        [hud show:YES];
-    }else{
-        hud.labelText = nil;
-    }
-}
+
 
 /*! 白底黑字----自动消失 */
 -(MSProgressHUD *)showHUDWitheColorAtCenter:(NSString *)title {
@@ -141,10 +133,8 @@
 }
 
 /**隐藏弹层*/
-- (void)hideHUDIndicatorViewAtCenter
-{
+- (void)hideHUDIndicatorViewAtCenter {
     MSProgressHUD *hud = [self getHUDIndicatorViewAtCenter];
-    
     [hud hide:YES];
 }
 
@@ -178,7 +168,7 @@
             break;
         case HUDCaseSucErr:
         {
-            hud.mode = MSProgressHUDModeCustomView;
+            hud.mode = MSProgressHUDICTtitle;
             hud.dimBackground = NO;
             hud.color = nil;
             hud.labelColor = [UIColor whiteColor];

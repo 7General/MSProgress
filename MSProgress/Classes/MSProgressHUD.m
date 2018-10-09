@@ -184,12 +184,12 @@ static const CGFloat kDetailsLabelFontSize = 15.f; /**详细标题字体大小*/
         self.detailsLabelColor = [UIColor whiteColor];
         //		self.activityIndicatorColor = [UIColor whiteColor];
         /**改变菊花颜色*/
-        self.activityIndicatorColor = [UIColor redColor];
+        self.activityIndicatorColor = [UIColor whiteColor];
         self.xOffset = 0.0f;
         self.yOffset = 0.0f;
         self.dimBackground = NO;
         self.margin = 20.0f;
-        self.cornerRadius = 10.0f;
+        self.cornerRadius = 2.0f;
         self.graceTime = 0.0f;
         self.minShowTime = 0.0f;
         self.removeFromSuperViewOnHide = NO;
@@ -546,8 +546,28 @@ static const CGFloat kDetailsLabelFontSize = 15.f; /**详细标题字体大小*/
         rotationAnimation.fillMode = kCAFillModeForwards;
         [self.indicator.layer addAnimation:rotationAnimation forKey:@"Rotation"];
         
-    }
-    else if (mode == MSProgressHUDETax) {
+    } if(mode == MSProgressHUDICTtitle && customView != indicator){
+//        [indicator removeFromSuperview];
+//        UIImageView * jiazaiView =  [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgress.bundle/%@", @"jiazai"]]];
+//        self.indicator = MS_AUTORELEASE(jiazaiView);
+//        self.indicator.backgroundColor = [UIColor clearColor];
+//        [self addSubview:indicator];
+        [indicator removeFromSuperview];
+        self.indicator = customView;
+        [self addSubview:indicator];
+//
+//        CABasicAnimation* rotationAnimation;
+//        rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+//        rotationAnimation.toValue = [NSNumber numberWithFloat: M_PI * 2.0 ];
+//        [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+//        rotationAnimation.duration = 2;
+//        rotationAnimation.repeatCount = 1000;
+//        rotationAnimation.cumulative = NO;
+//        rotationAnimation.removedOnCompletion = NO;
+//        rotationAnimation.fillMode = kCAFillModeForwards;
+//        [self.indicator.layer addAnimation:rotationAnimation forKey:@"Rotation"];
+        
+    } else if (mode == MSProgressHUDETax) {
         [indicator removeFromSuperview];
         UIImageView * jiazaiView =  [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgress.bundle/%@", @"jiazai_etax"]]];
         self.indicator = MS_AUTORELEASE(jiazaiView);
@@ -564,6 +584,7 @@ static const CGFloat kDetailsLabelFontSize = 15.f; /**详细标题字体大小*/
         rotationAnimation.removedOnCompletion = NO;
         rotationAnimation.fillMode = kCAFillModeForwards;
         [self.indicator.layer addAnimation:rotationAnimation forKey:@"Rotation"];
+        
     }
     
     
@@ -616,7 +637,7 @@ static const CGFloat kDetailsLabelFontSize = 15.f; /**详细标题字体大小*/
         
         CGRect labelF;
         labelF.origin.y = indicator.frame.origin.y + 1.5;
-        labelF.origin.x = roundf((bounds.size.width - labelSize.width +20) / 2) + xPos;
+        labelF.origin.x = roundf((bounds.size.width - labelSize.width +20) / 2) + xPos + 5;
         labelF.size = labelSize;
         label.frame = labelF;
         CGRect detailsLabelF;
@@ -644,7 +665,71 @@ static const CGFloat kDetailsLabelFontSize = 15.f; /**详细标题字体大小*/
         totalSize.height =50;
         size = totalSize;
         
-    } else {
+    } else if(mode == MSProgressHUDICTtitle){
+        
+        CGFloat maxWidth = bounds.size.width;
+        CGSize totalSize = CGSizeZero;
+        
+        CGRect indicatorF = indicator.bounds;
+        indicatorF.size.width = MIN(22, maxWidth);
+        indicatorF.size.height = 22;
+        
+        totalSize.width = indicatorF.size.width;
+        totalSize.height = indicatorF.size.height;
+        
+        CGSize labelSize = [label sizeThatFits:CGSizeMake(MAXFLOAT, MAXFLOAT)];
+        labelSize.width = MIN(labelSize.width, maxWidth);
+        totalSize.width += labelSize.width;
+        totalSize.width += 20;
+        
+        CGFloat remainingHeight = bounds.size.height - totalSize.height - kPadding - 4 * margin;
+        CGSize maxSize = CGSizeMake(maxWidth, remainingHeight);
+        CGSize detailsLabelSize = [detailsLabel sizeThatFits:maxSize];
+        totalSize.width = MAX(totalSize.width, detailsLabelSize.width);
+        totalSize.height += detailsLabelSize.height;
+        totalSize.height += 2 * margin;
+        
+        // Position elements
+        CGFloat yPos = roundf(((bounds.size.height - totalSize.height) / 2)) + margin + yOffset;
+        CGFloat xPos = xOffset;
+        indicatorF.origin.y = yPos;
+        indicatorF.origin.x = roundf((bounds.size.width - 22 - labelSize.width -20) / 2) + xPos;
+        indicatorF.size.width=22;
+        indicatorF.size.height=22;
+        indicator.frame = indicatorF;
+        
+        
+        CGRect labelF;
+        labelF.origin.y = indicator.frame.origin.y + 1.5;
+        labelF.origin.x = roundf((bounds.size.width - labelSize.width +20) / 2) + xPos + 5;
+        labelF.size = labelSize;
+        label.frame = labelF;
+        CGRect detailsLabelF;
+        detailsLabelF.origin.y = yPos;
+        detailsLabelF.origin.x = roundf((bounds.size.width - detailsLabelSize.width) / 2) + xPos;
+        detailsLabelF.size = detailsLabelSize;
+        detailsLabel.frame = detailsLabelF;
+        
+        if (square) {
+            CGFloat max = MAX(totalSize.width, totalSize.height);
+            if (max <= bounds.size.width - 2 * margin) {
+                totalSize.width = max;
+            }
+            if (max <= bounds.size.height - 2 * margin) {
+                totalSize.height = max;
+            }
+        }
+        if (totalSize.width < minSize.width) {
+            totalSize.width = minSize.width;
+        }
+        if (totalSize.height < minSize.height) {
+            totalSize.height = minSize.height;
+        }
+        totalSize.width += 22;
+        totalSize.height =50;
+        size = totalSize;
+        
+    }  else  {
         // Determine the total width and height needed
         CGFloat maxWidth = bounds.size.width - 4 * margin;
         CGSize totalSize = CGSizeZero;
