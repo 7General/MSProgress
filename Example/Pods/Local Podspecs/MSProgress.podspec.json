@@ -1,6 +1,6 @@
 {
   "name": "MSProgress",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "MSProgress for toast",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/7General",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/7General/MSProgress.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
