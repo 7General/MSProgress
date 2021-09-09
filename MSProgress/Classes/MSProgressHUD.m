@@ -567,7 +567,7 @@ static const CGFloat kDetailsLabelFontSize = 15.f; /**详细标题字体大小*/
 //        rotationAnimation.fillMode = kCAFillModeForwards;
 //        [self.indicator.layer addAnimation:rotationAnimation forKey:@"Rotation"];
         
-    } else if (mode == MSProgressHUDETax) {
+    } else if (mode == MSProgressHUDModeNormal) {
         [indicator removeFromSuperview];
         UIImageView * jiazaiView =  [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgress.bundle/%@", @"jiazai_etax"]]];
         self.indicator = MS_AUTORELEASE(jiazaiView);

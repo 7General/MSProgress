@@ -20,10 +20,10 @@ typedef NS_ENUM(NSInteger, MSProgressHUDMode) {
 	MSProgressHUDModeCustomView,
 	/** Shows only labels */
 	MSProgressHUDModeText,
-    
     //    add by gjf
     MSProgressHUD25X,
-    MSProgressHUDETax,
+    /**自定义常用样式*/
+    MSProgressHUDModeNormal,
     MSProgressHUDICTtitle,
 };
 
