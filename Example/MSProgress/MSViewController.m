@@ -45,23 +45,19 @@
 //}
 
 - (void)netClick {
-//    [self.view showHUDIndicatorViewAtCenter:@"加载中...."];
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        [self.view hideHUDIndicatorViewAtCenter];
-//    });
-        [self.view showHUDIndicatorViewAtCenter:@"加载中...."];
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [self.view showHUDIndicatorViewSuccessAtCenter:@"绑定成功"];
-        });
-    
-    
+    //    [self.view showHUDIndicatorViewAtCenter:@"加载中...."];
+    //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    //        [self.view hideHUDIndicatorViewAtCenter];
+    //    });
+    [self.view showHUDIndicatorSendAtCenter:@"加载中...."];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.view showHUDIndicatorAtCenter:@"绑定成功"];
+    });
     
 }
 
 -(void)showClick {
-    
-        [self.view showHUDIndicatorViewErrorAtCenter:@"绑定失败"];
-    
+    [self.view showHUDIndicatorAtCenter:@"绑定失败"];
 }
 
 @end
