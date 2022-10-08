@@ -12,12 +12,17 @@ typedef enum : NSUInteger {
     MSHUDStyleDefault, //头部有圆圈显示
     MSHUDStyleLabel, //只显示文字内容
     MSHUDStyleNormal ,    //常用样式
+    MSHUDStyleCustom ,    //自定义
+
 } MSShowHUDViewStyle;
 
 
 #define kMSHUDTOPWINDOW [self getCurrentWindowView]
 
 @implementation UIView (UIViewUtils)
+
+
+
 
 /// 显示文字提示（自动隐藏）
 /// @param indiTitle 提醒文字
@@ -59,6 +64,22 @@ typedef enum : NSUInteger {
     [self hide:YES afterDelay:1.25];
 }
 
+- (void)showHUDSuccess:(NSString *)indiTitle{
+    [self showHUDAtCenter:indiTitle icon:@"2success"];
+}
+- (void)showHUDFail:(NSString *)indiTitle{
+    [self showHUDAtCenter:indiTitle icon:@"2fail"];
+}
+- (void)showHUDAtCenter:(NSString *)indiTitle icon:(NSString*)icon {
+    MSProgressHUD *hud = [self getHUDIndicatorViewAtCenter];
+    if (hud) {
+        [hud hide:YES]; // 如果有已经展示的隐藏
+    }
+    hud = [self createHUDIndicatorViewAtCenter:indiTitle icon:icon yOffset:0 MPBCase:MSHUDStyleCustom];
+    
+    [hud show:YES];
+    [self hide:YES afterDelay:1.5];
+}
 
 
 /**隐藏弹层*/
@@ -103,7 +124,13 @@ typedef enum : NSUInteger {
     
     /**如果有图片名称*/
     if (icon) {
-        hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgress.bundle/%@", icon]]];
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, hud.size.width, 100)];
+        
+        UIImageView *imgv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgress.bundle/%@", icon]]];
+        imgv.frame = CGRectMake((view.bounds.size.width-80)/2, 0, 80, 80);
+        [view addSubview:imgv];
+
+        hud.customView = view;
     }
     switch (ShowHUDStyle) {
         case MSHUDStyleDefault:
@@ -129,6 +156,17 @@ typedef enum : NSUInteger {
             hud.dimBackground = NO;
             hud.color = [UIColor whiteColor];
             hud.labelColor = [UIColor blackColor];
+        }
+            break;
+        case MSHUDStyleCustom:
+        {
+            hud.mode = MSProgressHUDModeCustomView;
+            hud.dimBackground = NO;
+            hud.labelColor = [UIColor whiteColor];
+            hud.square = YES;
+            hud.cornerRadius = 6;
+            hud.color = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.64];
+//            hud.margin = 15;
         }
             break;
         default:

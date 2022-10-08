@@ -28,4 +28,12 @@
 /// @param y 偏移量
 - (void)showHUDIndicatorViewAtCenter:(NSString *)indiTitle yOffset:(CGFloat)y;
 
+/// 带成功图标的提示
+/// @param indiTitle 提示语
+- (void)showHUDSuccess:(NSString *)indiTitle;
+
+/// 带失败图标的提示
+/// @param indiTitle 提示语
+- (void)showHUDFail:(NSString *)indiTitle;
+
 @end
