@@ -91,6 +91,11 @@ typedef void (^MSProgressHUDCompletionBlock)();
  */
 @interface MSProgressHUD : UIView
 
+/// 找图片路径
+/// @param name name description
+/// @param text text description
+- (UIImage *)pathForFileName:(NSString *)name  ofType:(NSString *)text;
+
 /**
  * Creates a new HUD, adds it to provided view and shows it. The counterpart to this method is hideHUDForView:animated:.
  *

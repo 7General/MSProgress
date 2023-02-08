@@ -530,7 +530,8 @@ static const CGFloat kDetailsLabelFontSize = 15.f; /**详细标题字体大小*/
     
     else if(mode == MSProgressHUD25X){
         [indicator removeFromSuperview];
-        UIImageView * jiazaiView =  [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgress.bundle/%@", @"jiazai"]]];
+        UIImage *loadImage = [self pathForFileName:@"jiazai.png" ofType:nil];
+        UIImageView * jiazaiView =  [[UIImageView alloc] initWithImage:loadImage];
         self.indicator = MS_AUTORELEASE(jiazaiView);
         self.indicator.backgroundColor = [UIColor clearColor];
         [self addSubview:indicator];
@@ -569,7 +570,8 @@ static const CGFloat kDetailsLabelFontSize = 15.f; /**详细标题字体大小*/
         
     } else if (mode == MSProgressHUDModeNormal) {
         [indicator removeFromSuperview];
-        UIImageView * jiazaiView =  [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgress.bundle/%@", @"jiazai_etax"]]];
+        UIImage *loadImage = [self pathForFileName:@"jiazai_etax.png" ofType:nil];
+        UIImageView * jiazaiView =  [[UIImageView alloc] initWithImage:loadImage];
         self.indicator = MS_AUTORELEASE(jiazaiView);
         self.indicator.backgroundColor = [UIColor clearColor];
         [self addSubview:indicator];
@@ -866,6 +868,17 @@ static const CGFloat kDetailsLabelFontSize = 15.f; /**详细标题字体大小*/
     CGContextFillPath(context);
     
     UIGraphicsPopContext();
+}
+
+/// 找图片路径
+/// @param name name description
+/// @param text text description
+- (UIImage *)pathForFileName:(NSString *)name  ofType:(NSString *)text {
+    NSURL * assocBoundURL = [[NSBundle mainBundle] URLForResource:@"MSProgress" withExtension:@"bundle"];
+    NSBundle * bundle = [NSBundle bundleWithURL:assocBoundURL];
+    NSString * path = [bundle pathForResource:name ofType:text];
+    UIImage * image = [UIImage imageWithContentsOfFile:path];
+    return  image;
 }
 
 #pragma mark - KVO

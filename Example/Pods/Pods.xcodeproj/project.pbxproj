@@ -7,447 +7,422 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00CFC7EB3FA7BF8CC95025F41061C051 /* Pods-MSProgress_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B58D9E0CE8E6A62EECF57B0DEEB75F79 /* Pods-MSProgress_Tests-dummy.m */; };
-		06A2AE6D3EAC7C331AE0E844BBA05D66 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E091CCD19F78A9E614B3608CF93535 /* error@2x.png */; };
-		0D24D9BBF6707647250DF21E0E23DB76 /* jiazai.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEAA559CB7DC3D5904B2AC5B4E098D1 /* jiazai.png */; };
-		469131EAD8BB440AD3BFD9D273D38C5F /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F60DC0D57BEE45545700901706DCAEF7 /* success@3x.png */; };
-		4698CFE2659FB2D7DC1406E1F8F8396D /* UIView+UIViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A08B93FCE4568B973075BF2264127564 /* UIView+UIViewUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5D2060D59558A069C3089C863D359990 /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7D3613F14E7D99332E2789F52BA15C /* error@3x.png */; };
-		5D8FC720CFCC670CDDC5BD4F547C2287 /* UIView+UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D985A2BB0596EAA41424899288AA45B9 /* UIView+UIViewUtils.m */; };
-		6038498FF9025E66664D00E60B6A32DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		66A41C4A7EE34B9293BE7A0C342E17DF /* Pods-MSProgress_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08224DDC36B2CBE9DC68FD14DAF9C7FB /* Pods-MSProgress_Example-dummy.m */; };
-		717AEC3394F7B6E0079CFE019A383BCB /* MSProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D902879916B08764187F1052B94D6A2 /* MSProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B6AB0D686718C2D86F6FB70E5ECFFF4 /* MSProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D708ABC241C7080D55A952D75ECD914 /* MSProgress-dummy.m */; };
-		8D67E0585DDC138892143DB2EF6E037A /* MSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D1EFD58E0694F476FC7BAB619D2D3 /* MSProgressHUD.m */; };
-		A52BE05EA61014238FF81403A6737E51 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F008F2512C6A723CA2B0C35D05B60 /* success@2x.png */; };
-		A73D5DA51962C0F1D5A97803E6C3729F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F1A81A40B969C51089F4EDC373F88706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2F798A063A4CF011F9FA5073029B73ED /* UIView+UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7855DD2CA8893F8D67EAE1B4B7BDE243 /* UIView+UIViewUtils.m */; };
+		3723646490354F3C456BF99C7177787E /* MSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E63A60C2DB06C2C3D7CBB17D54D82E /* MSProgressHUD.m */; };
+		790E3DFB3D28169C606D5A6065034E00 /* Pods-MSProgress_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A918FB2AA3BED6EAD9AC690D7DE2FB /* Pods-MSProgress_Example-dummy.m */; };
+		C75A48542AA106D10682FA158F0A397A /* MSProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 939B0785C28F6692822A7D214B332559 /* MSProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D17E212A87EEB0FE71732F894EBC5036 /* Pods-MSProgress_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455CA308E2E7E329049F59A6233597F /* Pods-MSProgress_Tests-dummy.m */; };
+		E435BE8DDDA003EF38675AEB55D316AF /* UIView+UIViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EBADEEACDC0259A98A4887C4A450317F /* UIView+UIViewUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FAEDB718255FF6F5F68C96AB779F8DB0 /* MSProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD13A2DFA7C18C8C05237CC1EC0AA672 /* MSProgress-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3CF0ECB5005CBB55C7F98A0F3625D273 /* PBXContainerItemProxy */ = {
+		7218111211F9C65361B1F59829937A4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 971EFAB015288C34625C8611D71172B0;
-			remoteInfo = "MSProgress-MSProgress";
+			remoteGlobalIDString = 8A440A50F9A0AF34343BCC1CC829A5B0;
+			remoteInfo = "Pods-MSProgress_Example";
 		};
-		DA3F6732CEF5A982CE7966DA57259BA1 /* PBXContainerItemProxy */ = {
+		A603E450E1F2D97E78ACD9873CA7C209 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABF38F941A5B312169926681378AB59C;
+			remoteGlobalIDString = 015CAB5FD6D1B9B8AC1519DED1362575;
 			remoteInfo = MSProgress;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08224DDC36B2CBE9DC68FD14DAF9C7FB /* Pods-MSProgress_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSProgress_Example-dummy.m"; sourceTree = "<group>"; };
-		0E2F008F2512C6A723CA2B0C35D05B60 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@2x.png"; path = "MSProgress/Assets/success@2x.png"; sourceTree = "<group>"; };
-		0E698BEC3612A3220D9B318B5C4F34D5 /* Pods-MSProgress_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProgress_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1EB418BBFF0D6D334BE58AD8F1AC9AAF /* Pods-MSProgress_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProgress_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3706A5FA7E2A358735ABEA9A124CD56B /* Pods-MSProgress_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProgress_Example-resources.sh"; sourceTree = "<group>"; };
-		38E091CCD19F78A9E614B3608CF93535 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "MSProgress/Assets/error@2x.png"; sourceTree = "<group>"; };
-		38F4BAD1F99623841EB56366DC017933 /* Pods-MSProgress_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3C4D1EFD58E0694F476FC7BAB619D2D3 /* MSProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSProgressHUD.m; path = MSProgress/Classes/MSProgressHUD.m; sourceTree = "<group>"; };
-		3D708ABC241C7080D55A952D75ECD914 /* MSProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSProgress-dummy.m"; sourceTree = "<group>"; };
-		42E4B60BF09C48A17E1977809F0D4A9D /* Pods-MSProgress_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProgress_Tests-resources.sh"; sourceTree = "<group>"; };
-		449D05309D60FB6F4C6A3A954547B270 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4634BC54F54B6D853410FAA18D4DD56D /* Pods-MSProgress_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSProgress_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6C56EBE5830C9AC740A61B496A45875B /* Pods-MSProgress_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSProgress_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D811F2D7354D78D7DDE4008941FD994 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7E41EC3D4B1FC51A2231581186B4E73C /* ResourceBundle-MSProgress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MSProgress-Info.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D902879916B08764187F1052B94D6A2 /* MSProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProgressHUD.h; path = MSProgress/Classes/MSProgressHUD.h; sourceTree = "<group>"; };
-		9F7D3613F14E7D99332E2789F52BA15C /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "MSProgress/Assets/error@3x.png"; sourceTree = "<group>"; };
-		A08B93FCE4568B973075BF2264127564 /* UIView+UIViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+UIViewUtils.h"; path = "MSProgress/Classes/UIView+UIViewUtils.h"; sourceTree = "<group>"; };
-		A683A8CABBE8F00CA1B73733F878F6FE /* Pods-MSProgress_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSProgress_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A6FCF219C2C8257D5435D8F9243231C9 /* MSProgress.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MSProgress.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B3F19F21D28A2DFEF6284D6F5499045C /* libMSProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMSProgress.a; path = libMSProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B58D9E0CE8E6A62EECF57B0DEEB75F79 /* Pods-MSProgress_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSProgress_Tests-dummy.m"; sourceTree = "<group>"; };
-		BA045424B9332C3F1F8FF2E9C6D592C2 /* MSProgress.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MSProgress.bundle; path = "MSProgress-MSProgress.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BACC23FCD1D0A3B8F57865FBE03668E3 /* Pods-MSProgress_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BEB0E80AC368CE6F987A334AFC987B6B /* MSProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSProgress-prefix.pch"; sourceTree = "<group>"; };
-		BFEAA559CB7DC3D5904B2AC5B4E098D1 /* jiazai.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jiazai.png; path = MSProgress/Assets/jiazai.png; sourceTree = "<group>"; };
-		C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProgress.xcconfig; sourceTree = "<group>"; };
-		C610A4398D431DDAF3027E25ABCA8F1A /* libPods-MSProgress_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MSProgress_Tests.a"; path = "libPods-MSProgress_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C81850DE724430F8FF499BAE9B8A9846 /* Pods-MSProgress_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C9FA33CDD63D7AD09333C1B6CEF288E9 /* libPods-MSProgress_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MSProgress_Example.a"; path = "libPods-MSProgress_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D985A2BB0596EAA41424899288AA45B9 /* UIView+UIViewUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIViewUtils.m"; path = "MSProgress/Classes/UIView+UIViewUtils.m"; sourceTree = "<group>"; };
-		DB76F9B28C7DA3B8F0506961A215132F /* Pods-MSProgress_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F2BD793703D5AC9244409E7E9EA19833 /* Pods-MSProgress_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSProgress_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F60DC0D57BEE45545700901706DCAEF7 /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@3x.png"; path = "MSProgress/Assets/success@3x.png"; sourceTree = "<group>"; };
+		001403F325E25706AE8C165C2DAE17BE /* Pods-MSProgress_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-MSProgress_Example"; path = "libPods-MSProgress_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0455CA308E2E7E329049F59A6233597F /* Pods-MSProgress_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSProgress_Tests-dummy.m"; sourceTree = "<group>"; };
+		18E63A60C2DB06C2C3D7CBB17D54D82E /* MSProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSProgressHUD.m; path = MSProgress/Classes/MSProgressHUD.m; sourceTree = "<group>"; };
+		22322B6EDC412FAC4C6CA0CCD032A0F0 /* Pods-MSProgress_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSProgress_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		253093CB6353656E91B5287AE9E996D8 /* MSProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProgress.debug.xcconfig; sourceTree = "<group>"; };
+		3145B8CAF01B4113E980D728785CDCA3 /* Pods-MSProgress_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSProgress_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4432F421425A0AF86795F4D5E6F930CB /* MSProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProgress.release.xcconfig; sourceTree = "<group>"; };
+		60A688DCA92B1CFE9FD90B7260C42216 /* Pods-MSProgress_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		647BEE318EEF7B9B954E0A3494178F50 /* Pods-MSProgress_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6B84AACCA3509A0028361477D08F3AED /* Pods-MSProgress_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSProgress_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C53E57297F7396516896EE2A7317F44 /* Pods-MSProgress_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSProgress_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71E90983F7FAA380273C9A5927A64B61 /* Pods-MSProgress_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-MSProgress_Tests"; path = "libPods-MSProgress_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A5AAE6298F5F1A0E92869CB1A29A59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		767B89F4E729AC98CD3E8DD40864B823 /* Pods-MSProgress_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7855DD2CA8893F8D67EAE1B4B7BDE243 /* UIView+UIViewUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIViewUtils.m"; path = "MSProgress/Classes/UIView+UIViewUtils.m"; sourceTree = "<group>"; };
+		939B0785C28F6692822A7D214B332559 /* MSProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProgressHUD.h; path = MSProgress/Classes/MSProgressHUD.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9E59F82E642E21B88E2230A6DAA252D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A9ED7CC5D7CA0413BFAC2FBA8841B384 /* MSProgress.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSProgress.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD13A2DFA7C18C8C05237CC1EC0AA672 /* MSProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSProgress-dummy.m"; sourceTree = "<group>"; };
+		B7C18381575485B6DED4E4296EF8419A /* MSProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSProgress-prefix.pch"; sourceTree = "<group>"; };
+		CFA5AA42867F9DBC0A575C785654A0D1 /* MSProgress.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MSProgress.bundle; path = MSProgress/Assets/MSProgress.bundle; sourceTree = "<group>"; };
+		D7043178299269F1B2818E12430FBABB /* MSProgress */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MSProgress; path = libMSProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEE0ADC1BBE8C20B772C4A9383B9067 /* Pods-MSProgress_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProgress_Example-resources.sh"; sourceTree = "<group>"; };
+		E1A918FB2AA3BED6EAD9AC690D7DE2FB /* Pods-MSProgress_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSProgress_Example-dummy.m"; sourceTree = "<group>"; };
+		EBADEEACDC0259A98A4887C4A450317F /* UIView+UIViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+UIViewUtils.h"; path = "MSProgress/Classes/UIView+UIViewUtils.h"; sourceTree = "<group>"; };
+		EFABFDC4DFCD81306D2DBD2FA92B75A2 /* Pods-MSProgress_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProgress_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7ABCFEC9E443A3E20B946E770FA26C73 /* Frameworks */ = {
+		53195C11473C1A97595FE19B90FB7990 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		956448D10840B1723E2B38F2A19D6435 /* Frameworks */ = {
+		A5EDBEE84ED2BFC25BC13102250F5CAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6038498FF9025E66664D00E60B6A32DF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAC418F9041FBA586E3F15476278C870 /* Frameworks */ = {
+		B94FC9157DA610969D92773097EBF4CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A73D5DA51962C0F1D5A97803E6C3729F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7065EC324D47FB6FB56349F7498C77A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1A81A40B969C51089F4EDC373F88706 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BC174757636973809330706FAD317BF /* Pods-MSProgress_Tests */ = {
+		118E7A96B05CD3B7E5319F524CE2850B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6C56EBE5830C9AC740A61B496A45875B /* Pods-MSProgress_Tests-acknowledgements.markdown */,
-				F2BD793703D5AC9244409E7E9EA19833 /* Pods-MSProgress_Tests-acknowledgements.plist */,
-				B58D9E0CE8E6A62EECF57B0DEEB75F79 /* Pods-MSProgress_Tests-dummy.m */,
-				0E698BEC3612A3220D9B318B5C4F34D5 /* Pods-MSProgress_Tests-frameworks.sh */,
-				42E4B60BF09C48A17E1977809F0D4A9D /* Pods-MSProgress_Tests-resources.sh */,
-				C81850DE724430F8FF499BAE9B8A9846 /* Pods-MSProgress_Tests.debug.xcconfig */,
-				BACC23FCD1D0A3B8F57865FBE03668E3 /* Pods-MSProgress_Tests.release.xcconfig */,
+				69921C33BE9C2DB3F6058A8849748D49 /* Pods-MSProgress_Example */,
+				7FAB1F3E072B458651F8BFDCD9D6E588 /* Pods-MSProgress_Tests */,
 			);
-			name = "Pods-MSProgress_Tests";
-			path = "Target Support Files/Pods-MSProgress_Tests";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		341CDF290F4D05439BC4FDCAFD6744B0 /* Development Pods */ = {
+		2A3C1D6CD038FC61D6FA00F38C4F2574 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F746BF5AC62D2372972A088646BD33F3 /* MSProgress */,
+				74A5AAE6298F5F1A0E92869CB1A29A59 /* LICENSE */,
+				A9ED7CC5D7CA0413BFAC2FBA8841B384 /* MSProgress.podspec */,
+				A9E59F82E642E21B88E2230A6DAA252D /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		691B4AE15158F2A0F76DFB4D7B4B5663 /* Pods-MSProgress_Example */ = {
+		69921C33BE9C2DB3F6058A8849748D49 /* Pods-MSProgress_Example */ = {
 			isa = PBXGroup;
 			children = (
-				A683A8CABBE8F00CA1B73733F878F6FE /* Pods-MSProgress_Example-acknowledgements.markdown */,
-				4634BC54F54B6D853410FAA18D4DD56D /* Pods-MSProgress_Example-acknowledgements.plist */,
-				08224DDC36B2CBE9DC68FD14DAF9C7FB /* Pods-MSProgress_Example-dummy.m */,
-				1EB418BBFF0D6D334BE58AD8F1AC9AAF /* Pods-MSProgress_Example-frameworks.sh */,
-				3706A5FA7E2A358735ABEA9A124CD56B /* Pods-MSProgress_Example-resources.sh */,
-				DB76F9B28C7DA3B8F0506961A215132F /* Pods-MSProgress_Example.debug.xcconfig */,
-				38F4BAD1F99623841EB56366DC017933 /* Pods-MSProgress_Example.release.xcconfig */,
+				3145B8CAF01B4113E980D728785CDCA3 /* Pods-MSProgress_Example-acknowledgements.markdown */,
+				22322B6EDC412FAC4C6CA0CCD032A0F0 /* Pods-MSProgress_Example-acknowledgements.plist */,
+				E1A918FB2AA3BED6EAD9AC690D7DE2FB /* Pods-MSProgress_Example-dummy.m */,
+				DCEE0ADC1BBE8C20B772C4A9383B9067 /* Pods-MSProgress_Example-resources.sh */,
+				767B89F4E729AC98CD3E8DD40864B823 /* Pods-MSProgress_Example.debug.xcconfig */,
+				EFABFDC4DFCD81306D2DBD2FA92B75A2 /* Pods-MSProgress_Example.release.xcconfig */,
 			);
 			name = "Pods-MSProgress_Example";
 			path = "Target Support Files/Pods-MSProgress_Example";
 			sourceTree = "<group>";
 		};
-		6B55963F97E53F249A5FAF6C615B00D5 /* Resources */ = {
+		7FAB1F3E072B458651F8BFDCD9D6E588 /* Pods-MSProgress_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				38E091CCD19F78A9E614B3608CF93535 /* error@2x.png */,
-				9F7D3613F14E7D99332E2789F52BA15C /* error@3x.png */,
-				BFEAA559CB7DC3D5904B2AC5B4E098D1 /* jiazai.png */,
-				0E2F008F2512C6A723CA2B0C35D05B60 /* success@2x.png */,
-				F60DC0D57BEE45545700901706DCAEF7 /* success@3x.png */,
+				6C53E57297F7396516896EE2A7317F44 /* Pods-MSProgress_Tests-acknowledgements.markdown */,
+				6B84AACCA3509A0028361477D08F3AED /* Pods-MSProgress_Tests-acknowledgements.plist */,
+				0455CA308E2E7E329049F59A6233597F /* Pods-MSProgress_Tests-dummy.m */,
+				60A688DCA92B1CFE9FD90B7260C42216 /* Pods-MSProgress_Tests.debug.xcconfig */,
+				647BEE318EEF7B9B954E0A3494178F50 /* Pods-MSProgress_Tests.release.xcconfig */,
 			);
-			name = Resources;
+			name = "Pods-MSProgress_Tests";
+			path = "Target Support Files/Pods-MSProgress_Tests";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		805F981ECEE5A3CA209FA37EAC01B09C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				341CDF290F4D05439BC4FDCAFD6744B0 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DAA9B2DC35A725BEE5FDA8DD144E1E8D /* Products */,
-				B0FD3B964797382B79F2D4E3894DCEC7 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		92536BA831FCB38E543819EB547AED7C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */,
-				3D708ABC241C7080D55A952D75ECD914 /* MSProgress-dummy.m */,
-				BEB0E80AC368CE6F987A334AFC987B6B /* MSProgress-prefix.pch */,
-				7E41EC3D4B1FC51A2231581186B4E73C /* ResourceBundle-MSProgress-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MSProgress";
-			sourceTree = "<group>";
-		};
-		9DD280399847A76328FC291F1BB84C8C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6D811F2D7354D78D7DDE4008941FD994 /* LICENSE */,
-				A6FCF219C2C8257D5435D8F9243231C9 /* MSProgress.podspec */,
-				449D05309D60FB6F4C6A3A954547B270 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B0FD3B964797382B79F2D4E3894DCEC7 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				691B4AE15158F2A0F76DFB4D7B4B5663 /* Pods-MSProgress_Example */,
-				0BC174757636973809330706FAD317BF /* Pods-MSProgress_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DAA9B2DC35A725BEE5FDA8DD144E1E8D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B3F19F21D28A2DFEF6284D6F5499045C /* libMSProgress.a */,
-				C9FA33CDD63D7AD09333C1B6CEF288E9 /* libPods-MSProgress_Example.a */,
-				C610A4398D431DDAF3027E25ABCA8F1A /* libPods-MSProgress_Tests.a */,
-				BA045424B9332C3F1F8FF2E9C6D592C2 /* MSProgress.bundle */,
+				D7043178299269F1B2818E12430FBABB /* MSProgress */,
+				001403F325E25706AE8C165C2DAE17BE /* Pods-MSProgress_Example */,
+				71E90983F7FAA380273C9A5927A64B61 /* Pods-MSProgress_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F746BF5AC62D2372972A088646BD33F3 /* MSProgress */ = {
+		99B0934D904DAB5F1D61C3604ADC8848 /* MSProgress */ = {
 			isa = PBXGroup;
 			children = (
-				9D902879916B08764187F1052B94D6A2 /* MSProgressHUD.h */,
-				3C4D1EFD58E0694F476FC7BAB619D2D3 /* MSProgressHUD.m */,
-				A08B93FCE4568B973075BF2264127564 /* UIView+UIViewUtils.h */,
-				D985A2BB0596EAA41424899288AA45B9 /* UIView+UIViewUtils.m */,
-				9DD280399847A76328FC291F1BB84C8C /* Pod */,
-				6B55963F97E53F249A5FAF6C615B00D5 /* Resources */,
-				92536BA831FCB38E543819EB547AED7C /* Support Files */,
+				CFA5AA42867F9DBC0A575C785654A0D1 /* MSProgress.bundle */,
+				939B0785C28F6692822A7D214B332559 /* MSProgressHUD.h */,
+				18E63A60C2DB06C2C3D7CBB17D54D82E /* MSProgressHUD.m */,
+				EBADEEACDC0259A98A4887C4A450317F /* UIView+UIViewUtils.h */,
+				7855DD2CA8893F8D67EAE1B4B7BDE243 /* UIView+UIViewUtils.m */,
+				2A3C1D6CD038FC61D6FA00F38C4F2574 /* Pod */,
+				FF074FEFA131DA94BFBF7077370B058D /* Support Files */,
 			);
 			name = MSProgress;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		C8EB4BCB9CDAEE1C59ECDC418095A4E8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99B0934D904DAB5F1D61C3604ADC8848 /* MSProgress */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C8EB4BCB9CDAEE1C59ECDC418095A4E8 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				805F981ECEE5A3CA209FA37EAC01B09C /* Products */,
+				118E7A96B05CD3B7E5319F524CE2850B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF074FEFA131DA94BFBF7077370B058D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD13A2DFA7C18C8C05237CC1EC0AA672 /* MSProgress-dummy.m */,
+				B7C18381575485B6DED4E4296EF8419A /* MSProgress-prefix.pch */,
+				253093CB6353656E91B5287AE9E996D8 /* MSProgress.debug.xcconfig */,
+				4432F421425A0AF86795F4D5E6F930CB /* MSProgress.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSProgress";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CD3A900F4D62064BD4507C6D47A7D0B7 /* Headers */ = {
+		A08E4FCB72C3703ABA18C61C21DF999B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717AEC3394F7B6E0079CFE019A383BCB /* MSProgressHUD.h in Headers */,
-				4698CFE2659FB2D7DC1406E1F8F8396D /* UIView+UIViewUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0961BFDF066695402AD814E94C4AA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75A48542AA106D10682FA158F0A397A /* MSProgressHUD.h in Headers */,
+				E435BE8DDDA003EF38675AEB55D316AF /* UIView+UIViewUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AD83A4A524F2E7796180C3E31A27F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0FB24F35972FDE58E1DF92D08E57ECD1 /* Pods-MSProgress_Example */ = {
+		015CAB5FD6D1B9B8AC1519DED1362575 /* MSProgress */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B0E1AED383EB9F3E013CE80352A5562 /* Build configuration list for PBXNativeTarget "Pods-MSProgress_Example" */;
+			buildConfigurationList = C77FBE5B392470D0CB9A09ECBA5F1741 /* Build configuration list for PBXNativeTarget "MSProgress" */;
 			buildPhases = (
-				1BF7ACFEA6F58E9F809811BE6317A9BA /* Sources */,
-				AAC418F9041FBA586E3F15476278C870 /* Frameworks */,
+				BE0961BFDF066695402AD814E94C4AA3 /* Headers */,
+				0C17669C231C1594DDDB88F0C817C96A /* Sources */,
+				B94FC9157DA610969D92773097EBF4CA /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B1C6E0DA1D8AF1E6C5D71BC7CB37548A /* PBXTargetDependency */,
-			);
-			name = "Pods-MSProgress_Example";
-			productName = "Pods-MSProgress_Example";
-			productReference = C9FA33CDD63D7AD09333C1B6CEF288E9 /* libPods-MSProgress_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		4B68193BB4DEEEB2DDC11DE4130360F7 /* Pods-MSProgress_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1372BDA59E760B581D893C7244AAB6EE /* Build configuration list for PBXNativeTarget "Pods-MSProgress_Tests" */;
-			buildPhases = (
-				4BB46CC1805BB766977EA39B79DEC0A1 /* Sources */,
-				F7065EC324D47FB6FB56349F7498C77A /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-MSProgress_Tests";
-			productName = "Pods-MSProgress_Tests";
-			productReference = C610A4398D431DDAF3027E25ABCA8F1A /* libPods-MSProgress_Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		971EFAB015288C34625C8611D71172B0 /* MSProgress-MSProgress */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7EF2F52034C5038A2D9A498A7884B16 /* Build configuration list for PBXNativeTarget "MSProgress-MSProgress" */;
-			buildPhases = (
-				A60D899A284F41069BD667C592D32A8B /* Sources */,
-				7ABCFEC9E443A3E20B946E770FA26C73 /* Frameworks */,
-				BE2DACCE687D1801C4790A14C3DB7FD4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MSProgress-MSProgress";
-			productName = "MSProgress-MSProgress";
-			productReference = BA045424B9332C3F1F8FF2E9C6D592C2 /* MSProgress.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		ABF38F941A5B312169926681378AB59C /* MSProgress */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42D1ACB8C594793809FCE9BB57E8CC08 /* Build configuration list for PBXNativeTarget "MSProgress" */;
-			buildPhases = (
-				5DBE4480839D0BFA2E177C555C809B3D /* Sources */,
-				956448D10840B1723E2B38F2A19D6435 /* Frameworks */,
-				CD3A900F4D62064BD4507C6D47A7D0B7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CAC8FE0E5C92F45FE5B6968055644E1E /* PBXTargetDependency */,
 			);
 			name = MSProgress;
 			productName = MSProgress;
-			productReference = B3F19F21D28A2DFEF6284D6F5499045C /* libMSProgress.a */;
+			productReference = D7043178299269F1B2818E12430FBABB /* MSProgress */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8A440A50F9A0AF34343BCC1CC829A5B0 /* Pods-MSProgress_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A5F52ED82EBE5BD00DE14C66512282 /* Build configuration list for PBXNativeTarget "Pods-MSProgress_Example" */;
+			buildPhases = (
+				D6AD83A4A524F2E7796180C3E31A27F5 /* Headers */,
+				12FB23D5DCA323F4C4DBA9F33E3BF3D0 /* Sources */,
+				53195C11473C1A97595FE19B90FB7990 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB62C7455D9F47FBCE23045E53CB0B7C /* PBXTargetDependency */,
+			);
+			name = "Pods-MSProgress_Example";
+			productName = "Pods-MSProgress_Example";
+			productReference = 001403F325E25706AE8C165C2DAE17BE /* Pods-MSProgress_Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D0BAF32CBDDE335AAD6BBE55E26D1A1A /* Pods-MSProgress_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B1F594FB5D788992D29243AB8123FD /* Build configuration list for PBXNativeTarget "Pods-MSProgress_Tests" */;
+			buildPhases = (
+				A08E4FCB72C3703ABA18C61C21DF999B /* Headers */,
+				003F8D10BE6B004BF6D1B4D2EB20212B /* Sources */,
+				A5EDBEE84ED2BFC25BC13102250F5CAC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D52788029B3DF72632768172CEA1521 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSProgress_Tests";
+			productName = "Pods-MSProgress_Tests";
+			productReference = 71E90983F7FAA380273C9A5927A64B61 /* Pods-MSProgress_Tests */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				Base,
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DAA9B2DC35A725BEE5FDA8DD144E1E8D /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 805F981ECEE5A3CA209FA37EAC01B09C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABF38F941A5B312169926681378AB59C /* MSProgress */,
-				971EFAB015288C34625C8611D71172B0 /* MSProgress-MSProgress */,
-				0FB24F35972FDE58E1DF92D08E57ECD1 /* Pods-MSProgress_Example */,
-				4B68193BB4DEEEB2DDC11DE4130360F7 /* Pods-MSProgress_Tests */,
+				015CAB5FD6D1B9B8AC1519DED1362575 /* MSProgress */,
+				8A440A50F9A0AF34343BCC1CC829A5B0 /* Pods-MSProgress_Example */,
+				D0BAF32CBDDE335AAD6BBE55E26D1A1A /* Pods-MSProgress_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		BE2DACCE687D1801C4790A14C3DB7FD4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06A2AE6D3EAC7C331AE0E844BBA05D66 /* error@2x.png in Resources */,
-				5D2060D59558A069C3089C863D359990 /* error@3x.png in Resources */,
-				0D24D9BBF6707647250DF21E0E23DB76 /* jiazai.png in Resources */,
-				A52BE05EA61014238FF81403A6737E51 /* success@2x.png in Resources */,
-				469131EAD8BB440AD3BFD9D273D38C5F /* success@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		1BF7ACFEA6F58E9F809811BE6317A9BA /* Sources */ = {
+		003F8D10BE6B004BF6D1B4D2EB20212B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A41C4A7EE34B9293BE7A0C342E17DF /* Pods-MSProgress_Example-dummy.m in Sources */,
+				D17E212A87EEB0FE71732F894EBC5036 /* Pods-MSProgress_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BB46CC1805BB766977EA39B79DEC0A1 /* Sources */ = {
+		0C17669C231C1594DDDB88F0C817C96A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CFC7EB3FA7BF8CC95025F41061C051 /* Pods-MSProgress_Tests-dummy.m in Sources */,
+				FAEDB718255FF6F5F68C96AB779F8DB0 /* MSProgress-dummy.m in Sources */,
+				3723646490354F3C456BF99C7177787E /* MSProgressHUD.m in Sources */,
+				2F798A063A4CF011F9FA5073029B73ED /* UIView+UIViewUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DBE4480839D0BFA2E177C555C809B3D /* Sources */ = {
+		12FB23D5DCA323F4C4DBA9F33E3BF3D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B6AB0D686718C2D86F6FB70E5ECFFF4 /* MSProgress-dummy.m in Sources */,
-				8D67E0585DDC138892143DB2EF6E037A /* MSProgressHUD.m in Sources */,
-				5D8FC720CFCC670CDDC5BD4F547C2287 /* UIView+UIViewUtils.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A60D899A284F41069BD667C592D32A8B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				790E3DFB3D28169C606D5A6065034E00 /* Pods-MSProgress_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B1C6E0DA1D8AF1E6C5D71BC7CB37548A /* PBXTargetDependency */ = {
+		0D52788029B3DF72632768172CEA1521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MSProgress_Example";
+			target = 8A440A50F9A0AF34343BCC1CC829A5B0 /* Pods-MSProgress_Example */;
+			targetProxy = 7218111211F9C65361B1F59829937A4C /* PBXContainerItemProxy */;
+		};
+		FB62C7455D9F47FBCE23045E53CB0B7C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MSProgress;
-			target = ABF38F941A5B312169926681378AB59C /* MSProgress */;
-			targetProxy = DA3F6732CEF5A982CE7966DA57259BA1 /* PBXContainerItemProxy */;
-		};
-		CAC8FE0E5C92F45FE5B6968055644E1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MSProgress-MSProgress";
-			target = 971EFAB015288C34625C8611D71172B0 /* MSProgress-MSProgress */;
-			targetProxy = 3CF0ECB5005CBB55C7F98A0F3625D273 /* PBXContainerItemProxy */;
+			target = 015CAB5FD6D1B9B8AC1519DED1362575 /* MSProgress */;
+			targetProxy = A603E450E1F2D97E78ACD9873CA7C209 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04CD2084E721A846D118B8A97FF1A1BC /* Release */ = {
+		068827B1DDDC45A3A9C99C15CBF486F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */;
+			baseConfigurationReference = 767B89F4E729AC98CD3E8DD40864B823 /* Pods-MSProgress_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MSProgress";
-				INFOPLIST_FILE = "Target Support Files/MSProgress/ResourceBundle-MSProgress-Info.plist";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MSProgress;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		51820BE3A6B72DF29225780A33B1E1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647BEE318EEF7B9B954E0A3494178F50 /* Pods-MSProgress_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		5B088643E7F3BF5814300642A734AAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4432F421425A0AF86795F4D5E6F930CB /* MSProgress.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MSProgress/MSProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MSProgress;
+				PRODUCT_NAME = MSProgress;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -470,14 +445,139 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7CA90D0F10871CC29E771E638A1BC6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A688DCA92B1CFE9FD90B7260C42216 /* Pods-MSProgress_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FD7D7D105B45D42164A6E32DE61A670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFABFDC4DFCD81306D2DBD2FA92B75A2 /* Pods-MSProgress_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A03AB26D12F6F1B5E3D77D824C3B1FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253093CB6353656E91B5287AE9E996D8 /* MSProgress.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MSProgress/MSProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MSProgress;
+				PRODUCT_NAME = MSProgress;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -498,271 +598,58 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		21CB08845166DEBFDE223E5325C4D830 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38F4BAD1F99623841EB56366DC017933 /* Pods-MSProgress_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6E7C90503E2246FEDE61AACED2963E8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C81850DE724430F8FF499BAE9B8A9846 /* Pods-MSProgress_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		98268A32C9CF28901B1147D10A96D0B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BACC23FCD1D0A3B8F57865FBE03668E3 /* Pods-MSProgress_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		AB9B42F20FCC1306BA40122171838F20 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB76F9B28C7DA3B8F0506961A215132F /* Pods-MSProgress_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AF82F8D1A0EE249FFD5470066599AAE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MSProgress";
-				INFOPLIST_FILE = "Target Support Files/MSProgress/ResourceBundle-MSProgress-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MSProgress;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		B5C5C121C99795E6072A109636045ACB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MSProgress/MSProgress-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MSProgress;
-				PRODUCT_NAME = MSProgress;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EE9E32492B7DFE5AB4F329EDB9404870 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C36D23269E53A8571639EC98E3D92382 /* MSProgress.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MSProgress/MSProgress-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MSProgress;
-				PRODUCT_NAME = MSProgress;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1372BDA59E760B581D893C7244AAB6EE /* Build configuration list for PBXNativeTarget "Pods-MSProgress_Tests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E7C90503E2246FEDE61AACED2963E8F /* Debug */,
-				98268A32C9CF28901B1147D10A96D0B4 /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		72A5F52ED82EBE5BD00DE14C66512282 /* Build configuration list for PBXNativeTarget "Pods-MSProgress_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+				068827B1DDDC45A3A9C99C15CBF486F6 /* Debug */,
+				9FD7D7D105B45D42164A6E32DE61A670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B0E1AED383EB9F3E013CE80352A5562 /* Build configuration list for PBXNativeTarget "Pods-MSProgress_Example" */ = {
+		C77FBE5B392470D0CB9A09ECBA5F1741 /* Build configuration list for PBXNativeTarget "MSProgress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB9B42F20FCC1306BA40122171838F20 /* Debug */,
-				21CB08845166DEBFDE223E5325C4D830 /* Release */,
+				A03AB26D12F6F1B5E3D77D824C3B1FFE /* Debug */,
+				5B088643E7F3BF5814300642A734AAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42D1ACB8C594793809FCE9BB57E8CC08 /* Build configuration list for PBXNativeTarget "MSProgress" */ = {
+		E6B1F594FB5D788992D29243AB8123FD /* Build configuration list for PBXNativeTarget "Pods-MSProgress_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5C5C121C99795E6072A109636045ACB /* Debug */,
-				EE9E32492B7DFE5AB4F329EDB9404870 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A7EF2F52034C5038A2D9A498A7884B16 /* Build configuration list for PBXNativeTarget "MSProgress-MSProgress" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AF82F8D1A0EE249FFD5470066599AAE9 /* Debug */,
-				04CD2084E721A846D118B8A97FF1A1BC /* Release */,
+				7CA90D0F10871CC29E771E638A1BC6F0 /* Debug */,
+				51820BE3A6B72DF29225780A33B1E1BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

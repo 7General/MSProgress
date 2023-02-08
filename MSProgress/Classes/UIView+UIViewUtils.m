@@ -103,7 +103,8 @@ typedef enum : NSUInteger {
     
     /**如果有图片名称*/
     if (icon) {
-        hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MSProgress.bundle/%@", icon]]];
+        UIImage * loadImage = [[MSProgressHUD alloc] pathForFileName:icon ofType:nil];
+        hud.customView = [[UIImageView alloc] initWithImage:loadImage];
     }
     switch (ShowHUDStyle) {
         case MSHUDStyleDefault:
